@@ -19,6 +19,7 @@ Host: Host local de Laragon.
 ------------------------------------------
 Uso e Instalación del sistema de forma LOCAL
 -> Ver archivo DEPLOY en la carpeta DOCS 
+------------------------------------------
     /DOCS/DEPLOY.txt
 ------------------------------------------
 Gracias por probar QuienVino.
