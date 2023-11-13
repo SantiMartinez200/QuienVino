@@ -19,7 +19,7 @@ Host: Host local de Laragon.
 ------------------------------------------
 Uso e Instalación del sistema de forma LOCAL
 -> Ver archivo DEPLOY en la carpeta DOCS 
-    (./QuienVino/DOCS/DEPLOY.txt)
+    (/QuienVino/DOCS/DEPLOY.txt)
 ------------------------------------------
 Gracias por probar QuienVino.
 - Martínez Bender, Santiago Nicolás. Estudiante de la Tecnicatura en Análisis y desarrollo de Software, 2° año.
