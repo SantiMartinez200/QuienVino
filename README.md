@@ -13,7 +13,7 @@ Lenguajes y Tecnologías de diseño utilizadas.
 
 Backend: PHP
 Frontend: HTML5,CSS3,JavaScript.
-Librerías de JavaScript: Jquery, SweetAlert2.
+Librerías de JavaScript: Jquery, SweetAlert2, JsPDF, html2canvas.
 Base de datos: MariaDB de Laragon.
 Host: Host local de Laragon.
 ------------------------------------------
