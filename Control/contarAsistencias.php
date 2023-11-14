@@ -95,7 +95,8 @@ include("../Clases/Parametro.php");
             <label for="dni" class="text-left round pr-5">
               <h3 class="text-light mx-2">Buscar por DNI</h3>
             </label>
-            <input type="number" name="dni" id="dni" class="form-control w-75 " onkeyup="buscarFetch(this.value)" autofocus>
+            <input type="number" name="dni" id="dni" class="form-control w-75 " onkeyup="buscarFetch(this.value)"
+              autofocus>
           </div>
         </div>
         <div class="d-block overflow">
@@ -162,7 +163,9 @@ include("../Clases/Parametro.php");
                     } else {
                       $dia = intval($dias_de_clase[0][0]);
                       $promedioAlumno = round($asistencia * 100 / $dia);
-                      if ($promedioAlumno >= $listadoParametros[0][2]) {
+                      if ($promedioAlumno > 100) {
+                        echo "<div class='alert alert-secondary mt-1'>Exceso de asistencias, revisión recomendada</div>";
+                      } elseif ($promedioAlumno >= $listadoParametros[0][2]) {
                         echo "<div class='alert alert-success mt-1'> $promedioAlumno% </div>";
                       } elseif (($promedioAlumno < 80) && ($promedioAlumno >= $listadoParametros[0][3])) {
                         echo "<div class='alert alert-warning mt-1'> $promedioAlumno% </div>";
@@ -203,4 +206,5 @@ include("../Clases/Parametro.php");
   <script src="../../QuienVino/Resources/js/bootstrap.bundle.min.js"></script>
   <script src="./JS/fetchJsContar.js"></script>
 </body>
+
 </html>

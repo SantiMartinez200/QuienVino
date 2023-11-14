@@ -159,7 +159,9 @@ $conectarDB->connect();
                     </td>
                     <td>
                       <?php
-                      if ($promedioAlumno >= $listadoParametros[0][2]) {
+                      if ($promedioAlumno > 100) {
+                        echo "<div class='divERR mt-1'>Exceso de asistencias, revisión recomendada</div>";
+                      } elseif ($promedioAlumno >= $listadoParametros[0][2]) {
                         echo "<div class='divP mt-1'> $promedioAlumno% </div>";
                       }
                 }
