@@ -1,6 +1,7 @@
 Pasos para Instalar QuienVino de forma local.
 ----------------------------------------------
 ANTES DE COMENZAR, SE REQUIERE CONEXIÓN A INTERNET, PUESTO QUE SE INCLUYEN VIA CDN LIBRERÍAS COMO: JsPDF, HTML2CANVAS.
+ADEMÁS, SI SE DESCARGA DIRECTAMENTE DESDE AQUÍ; RENOMBRAR LA CARPETA DESCARGADA COMO "QuienVino", normalmente se descargará como: "QuienVino -main" y por una cuestión de direcciónes relativas; conviene renombrarlo como se mencionó arriba.
 ----------------------------------------------
 PASO 1: 
         Instalar el entorno de desarrollo de Laragon (PD: No usar el PORTABLE).
