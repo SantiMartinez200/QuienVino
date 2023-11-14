@@ -19,7 +19,7 @@ Base de datos: MariaDB de Laragon.
 Host: Host local de Laragon.
 ------------------------------------------
 Uso e Instalación del sistema de forma LOCAL
--> Ver archivo DEPLOY en la carpeta DOCS 
+-> Ver archivo DEPLOY en la carpeta DOCS, consultar esta misma carpeta en busca de más definición.
 ------------------------------------------
     /DOCS/DEPLOY.txt
 ------------------------------------------
